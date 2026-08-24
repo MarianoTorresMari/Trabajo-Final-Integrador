@@ -1,0 +1,40 @@
+:root {
+  --color-fondo: #f5f5f5;
+  --color-header: #2b2d42;
+  --color-primario: #4361ee;
+  --color-texto: #2b2b2b;
+  --color-borde: #dcdcdc;
+  --fuente-principal: Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    
+}
+
+header{
+    background-color: var(--color-header);
+    color: white;
+    padding: 5%;
+
+
+}
+
+header h1{
+    margin-bottom: 2px;
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+}
